@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Flask API",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/logistics_api/src/main.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/logistics_api",
+      "env": {
+        "FLASK_ENV": "development",
+        "FLASK_DEBUG": "1"
+      }
+    },
+    {
+      "name": "Python: Init Database",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/logistics_api/init_simple.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/logistics_api"
+    }
+  ]
+}
+
